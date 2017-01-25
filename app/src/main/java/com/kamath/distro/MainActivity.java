@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             try {
 
                 URL url = new URL("http://10.0.2.2:28090/instrument"); // here is your URL path
-
+                //create the json values
                 JSONObject postDataParams = new JSONObject();
                 eText = (EditText) findViewById(R.id.edittext);
                 postDataParams.put("instrumentid", eText.getText());
